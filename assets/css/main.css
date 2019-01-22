@@ -29,6 +29,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.technical-container {
+	background-color: #ddd8d7;
+	padding: 5px 5px 0 5px;
+	opacity: .7;
+	border-radius: 5px;
+}
+
 body {
 	line-height: 1;
 }
@@ -186,13 +193,23 @@ input, select, textarea {
 	}
 
 	li:hover:before {
-  color:#936963;
+  color:#c12711;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4 {
 		color: #555;
 		font-family: "Montserrat", sans-serif;
 		font-weight: 700;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+		letter-spacing: 0.25em;
+	}
+
+	h5, h6 {
+		color: #555;
+		font-family: "Montserrat", sans-serif;
+		/* font-weight: normal; */
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -946,6 +963,7 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: center;
 		}
 
 		table th {
