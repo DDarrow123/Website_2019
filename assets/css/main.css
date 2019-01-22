@@ -164,6 +164,31 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	li {
+  color: black ;
+  list-style:none;
+  position: relative;
+  padding-left:50px;
+  line-height: 2;
+	}
+
+	li:before {
+  font-family: FontAwesome;
+
+  left: 0;
+  color: black;
+  /* font-size:32px; */
+	margin-right: 5px;
+	}
+
+	li.three:before {
+   content:"\f10c";
+	}
+
+	li:hover:before {
+  color:#936963;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
 		font-family: "Montserrat", sans-serif;
@@ -314,6 +339,11 @@ input, select, textarea {
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
+
+	header p span {
+		font-weight: 900;
+		color: #891e0f;
+	}
 
 		@media screen and (max-width: 736px) {
 
