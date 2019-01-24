@@ -749,6 +749,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+.work-image {
+	margin: 1em 0 2em 0;
+	width: 100%;
+}
 /* List */
 
 	ol {
