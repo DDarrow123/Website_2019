@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 .technical-container {
 	background-color: #9187858a;
-	padding: 5px 5px 0 5px;
-	opacity: .7;
-	border-radius: 5px;
+	padding: 10px 10px 0 15px;
+	opacity: .6;
+	border-radius: 8px;
 }
 
 body {
