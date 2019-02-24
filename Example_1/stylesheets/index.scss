@@ -11,17 +11,19 @@ body {
     max-width: 900px;
     background-color: #f2e3da;
     height: 850px;
-    margin: 120px 0px 100px 80px;
+    margin: 120px 0px 100px 100px;
     .nav-container {
       width: 100px;
       display: flex;
       padding: 10px;
       margin: 30px;
       list-style-type: none;
+
       .site-name {
         margin-top: 15px;
         color: black;
         font-size: 20px;
+        min-width: 50px;
         span {
           color: black;
         }
@@ -31,8 +33,8 @@ body {
         height: 80px;
         color: black;
         position: absolute;
-        left: 95px;
-        transform: rotate(-35deg);
+        left: 120px;
+        transform: rotate(-38deg);
       }
       :nth-child(3) {
         margin-left: 60px;
@@ -56,16 +58,6 @@ body {
         text-decoration: none;
         position: relative;
         color: #af9687;
-        // :after {
-        //   content: "";
-        //   width: 25%;
-        //   position: absolute;
-        //   text-align: center;
-        //   left: 2.2em;
-        //   bottom: 5px;
-        //   border-width: 0 0 1px;
-        //   border-style: solid;
-        // }
       }
     }
     .bottom-title {
@@ -88,14 +80,36 @@ body {
       .lip-image {
         height: 300px;
         position: absolute;
-        bottom: 0;
+        top: 30em;
         opacity: 0.8;
       }
     }
   }
   .side-nav-container {
-    transform: rotate(-270deg);
+    transform: rotate(270deg);
+    // margin-left: 30em;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-start;
     .side-nav-link-container {
+      width: 70%;
+      // height: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-left: 25em;
+      position: absolute;
+      bottom: 23em;
+      .side-list-item {
+        margin-left: 80px;
+        list-style-type: none;
+        color: #d0bcb0;
+        &.line {
+          width: 50px;
+          border-width: 0 0 1px;
+          border-style: solid;
+        }
+      }
     }
   }
   .right-side-bar {
