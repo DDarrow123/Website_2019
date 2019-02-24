@@ -10,7 +10,7 @@ body {
     max-width: 900px;
     background-color: #f2e3da;
     height: 850px;
-    margin: 120px 0px 100px 100px; }
+    margin: 120px 0px 100px 60px; }
     .main-container .left-side-bar .nav-container {
       width: 100px;
       display: flex;
@@ -29,13 +29,13 @@ body {
         height: 80px;
         color: black;
         position: absolute;
-        left: 120px;
-        transform: rotate(-38deg); }
+        left: 80px;
+        transform: rotate(-35deg); }
       .main-container .left-side-bar .nav-container :nth-child(3) {
         margin-left: 60px; }
       .main-container .left-side-bar .nav-container div {
         display: flex;
-        margin-left: 240px; }
+        margin-left: 230px; }
         .main-container .left-side-bar .nav-container div img {
           margin-top: 10px;
           width: 30px;
@@ -88,8 +88,8 @@ body {
           border-width: 0 0 1px;
           border-style: solid; }
   .main-container .right-side-bar {
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 400px;
+    max-width: 400px;
     background-color: white;
     margin: 120px 80px 100px 0px; }
     .main-container .right-side-bar div {
@@ -113,7 +113,7 @@ body {
           width: 20%;
           position: absolute;
           text-align: center;
-          right: 200px;
+          right: 160px;
           bottom: -10px;
           border-width: 0 0 1px;
           border-style: solid; }
@@ -123,6 +123,6 @@ body {
         .main-container .right-side-bar div div img {
           position: absolute;
           bottom: 100px;
-          right: 6em; }
+          right: 3em; }
 
 /*# sourceMappingURL=index.css.map */
