@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/github_icon.10d0dac4.svg"
   },
   {
-    "revision": "b19ececdeb88a43ba50c",
-    "url": "/static/css/main.ef2b5f69.chunk.css"
+    "revision": "ae798bebc4882fa196f3",
+    "url": "/static/css/main.62cd538a.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/insta_icon.a857427d.svg"
   },
   {
-    "revision": "b19ececdeb88a43ba50c",
-    "url": "/static/js/main.b19ececd.chunk.js"
+    "revision": "ae798bebc4882fa196f3",
+    "url": "/static/js/main.ae798beb.chunk.js"
   },
   {
     "revision": "c96c4bf03e4edaa323882b6e7fa15968",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/question_img.48fe6532.png"
   },
   {
-    "revision": "b07d17d3afc319ad49bc61c345a05d17",
+    "revision": "a1217730cf68ee19c2a4d26b4d895221",
     "url": "/index.html"
   }
 ];
