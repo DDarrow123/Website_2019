@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/github_icon.10d0dac4.svg"
   },
   {
-    "revision": "ae798bebc4882fa196f3",
-    "url": "/static/css/main.62cd538a.chunk.css"
+    "revision": "b7f7fd87ac4a0669ae48",
+    "url": "/static/css/main.14619caa.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "00acebe958dc1fa07f66",
-    "url": "/static/js/2.00acebe9.chunk.js"
+    "revision": "1d68e66447f92d79960d",
+    "url": "/static/js/2.1d68e664.chunk.js"
   },
   {
     "revision": "04c4147316628327084e907059454e94",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/insta_icon.a857427d.svg"
   },
   {
-    "revision": "ae798bebc4882fa196f3",
-    "url": "/static/js/main.ae798beb.chunk.js"
+    "revision": "b7f7fd87ac4a0669ae48",
+    "url": "/static/js/main.b7f7fd87.chunk.js"
   },
   {
     "revision": "c96c4bf03e4edaa323882b6e7fa15968",
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "d1f983991e0133bcb9da09cacea30211",
     "url": "/static/media/beauty_img.d1f98399.png"
+  },
+  {
+    "revision": "90622d6312efb8aee88e3aed8cceb68a",
+    "url": "/static/media/gallery_img.90622d63.png"
   },
   {
     "revision": "44bd08b7a48a3371b596afa7726ee3d8",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/question_img.48fe6532.png"
   },
   {
-    "revision": "a1217730cf68ee19c2a4d26b4d895221",
+    "revision": "c61900d40b5eb2a85634dddd796a03ba",
     "url": "/index.html"
   }
 ];
